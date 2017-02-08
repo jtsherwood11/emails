@@ -1,0 +1,493 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alfresco Digital Transformation</title>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alfresco Digital Transformation</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style type="text/css">
+      @import url(http://fonts.googleapis.com/css?family=Lato:400);
+      /* Take care of image borders and formatting */
+
+      img {
+        max-width: 600px;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+      }
+
+      a {
+        text-decoration: none;
+        border: 0;
+        outline: none;
+        color: #f29b18;
+      }
+
+      a img {
+        border: none;
+      }
+      /* General styling */
+
+      td,
+      h1,
+      h2,
+      h3 {
+        font-family: 'Open Sans', Verdana, sans-serif;
+        font-weight: 400;
+      }
+
+      body {
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: none;
+        width: 100%;
+        height: 100%;
+        color: #37302d;
+        background: #ffffff;
+      }
+
+      table {
+        background:
+      }
+
+      h1,
+      h2,
+      h3 {
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        font-weight: 400;
+      }
+
+      h3 {
+        color: #21c5ba;
+        font-size: 32px;
+      }
+    </style>
+    <style type="text/css" media="screen">
+      @media screen {
+        /* Thanks Outlook 2013! http://goo.gl/XLxpyl*/
+        td,
+        h1,
+        h2,
+        h3 {
+          font-family: 'Lato', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+        }
+      }
+    </style>
+    <style type="text/css" media="only screen and (max-width: 480px)">
+      /* Mobile styles */
+
+      @media only screen and (max-width: 480px) {
+        table[class="w320"] {
+          width: 320px !important;
+        }
+        table[class="w300"] {
+          width: 300px !important;
+        }
+        table[class="w290"] {
+          width: 290px !important;
+        }
+        td[class="w320"] {
+          width: 320px !important;
+        }
+        td[class="mobile-center"] {
+          text-align: center !important;
+        }
+        td[class="mobile-padding"] {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+          padding-bottom: 20px !important;
+        }
+      }
+
+      img {
+        max-width: 600px;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+      }
+
+      a img {
+        border: none;
+      }
+
+      table {
+        border-collapse: collapse !important;
+      }
+
+      #outlook a {
+        padding: 0;
+      }
+
+      .ReadMsgBody {
+        width: 100%;
+      }
+
+      .ExternalClass {
+        width: 100%;
+      }
+
+      .backgroundTable {
+        margin: 0 auto;
+        padding: 0;
+        width: 100% !important;
+      }
+
+      table td {
+        border-collapse: collapse;
+      }
+
+      .ExternalClass * {
+        line-height: 115%;
+      }
+
+      .container-for-gmail-android {
+        min-width: 600px;
+      }
+      /* General styling */
+
+      * {
+        font-family: 'Open Sans', Verdana, sans-serif;
+      }
+
+      body {
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: none;
+        width: 100% !important;
+        margin: 0 !important;
+        height: 100%;
+        color: #676767;
+      }
+
+      td {
+        font-family: 'Open Sans', Verdana, sans-serif;
+        font-size: 14px;
+        color: #777777;
+        text-align: center;
+        line-height: 21px;
+      }
+
+      a {
+        color: #676767;
+        text-decoration: none !important;
+      }
+
+      .pull-left {
+        text-align: left;
+      }
+
+      .pull-right {
+        text-align: right;
+      }
+
+      .header-lg,
+      .header-md,
+      .header-sm {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: normal;
+        padding: 35px 0 0;
+        color: #4d4d4d;
+      }
+
+      .header-md {
+        font-size: 32px;
+      }
+
+      .header-sm {
+        padding: 5px 0;
+        font-size: 18px;
+        line-height: 1.3;
+      }
+
+      .content-padding {
+        padding: 20px 0 5px;
+      }
+
+      .mobile-header-padding-right {
+        width: 290px;
+        text-align: right;
+        padding-left: 10px;
+      }
+
+      .mobile-header-padding-left {
+        width: 290px;
+        text-align: left;
+        padding-left: 10px;
+      }
+
+      .free-text {
+        width: 100% !important;
+        padding: 10px 60px 0px;
+      }
+
+      .button {
+        padding: 30px 0;
+      }
+
+      .mini-block {
+        border: 1px solid #e5e5e5;
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 12px 15px 15px;
+        text-align: left;
+        width: 253px;
+      }
+
+      .mini-container-left {
+        width: 278px;
+        padding: 10px 0 10px 15px;
+      }
+
+      .mini-container-right {
+        width: 278px;
+        padding: 10px 14px 10px 15px;
+      }
+
+      .product {
+        text-align: left;
+        vertical-align: top;
+        width: 175px;
+      }
+
+      .total-space {
+        padding-bottom: 8px;
+        display: inline-block;
+      }
+
+      .item-table {
+        padding: 50px 20px;
+        width: 560px;
+      }
+
+      .item {
+        width: 300px;
+      }
+
+      .mobile-hide-img {
+        text-align: left;
+        width: 125px;
+      }
+
+      .mobile-hide-img img {
+        border: 1px solid #e6e6e6;
+        border-radius: 4px;
+      }
+
+      .title-dark {
+        text-align: left;
+        border-bottom: 1px solid #cccccc;
+        color: #4d4d4d;
+        font-weight: 700;
+        padding-bottom: 5px;
+      }
+
+      .item-col {
+        padding-top: 20px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      .force-width-gmail {
+        min-width: 600px;
+        height: 0px !important;
+        line-height: 1px !important;
+        font-size: 1px !important;
+      }
+
+      * {
+        font-family: font-family: 'Open Sans', Verdana, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <table width="400" cellspacing="0" cellpadding="0" align="center">
+        <tbody>
+          <tr>
+            <td align="center" valign="top" bgcolor="#ffffff" width="400">
+              <table class="w320" style="height: 111px; max-width: 400px; margin-left: auto; margin-right: auto;font-family: 'Open Sans', Verdana, sans-serif;" width="100%" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr style="height: 80px;" valign="middle" bgcolor="#a8abad">
+                    <td style="vertical-align: middle; padding: 10px; text-align: left; height: 130px;border: 7px solid #a8abad;" valign="middle" bgcolor="#f29b18" height="203">
+                      <h1 style="font-family: 'Open Sans', Verdana, sans-serif;color: #ffffff; font-weight: normal; line-height: 115%;font-weight:normal;letter-spacing: 2px;">Accelerating Digital Transformation </h1>
+                    </td>
+                  </tr>
+                  <tr style="height: 66px;" width="400" valign="middle" bgcolor="#a8abad">
+                    <td width="400" style="vertical-align: middle;   text-align: left; height: 80px;border: 7px solid #a8abad;" valign="middle" bgcolor="#a8abad" height="203">
+                      <h2 style="font-family: 'Open Sans', Verdana, sans-serif;color: #000; text-align: left; padding: 10px; font-weight: normal;letter-spacing: 3px;">Faster In State And Local Government </h2>
+                      <!--  <p style="line-height: 2px; margin: 0 3%; border-bottom: 1px solid #ccc !important;">&nbsp;
+        </p>-->
+                    </td>
+                  </tr>
+                  <tr style="height: 66px;" width="400" valign="middle" bgcolor="#fff">
+                    <td class="bodyContent" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #a8abad; font-family: sans-serif; font-size: 14px; line-height: 115%; text-align: left; border-bottom:0px solid #a8abad;" colspan="12" align="left" valign="top" width="100%">
+                      <br />
+                      <h1 style=" display: block; font-family: 'Open Sans', Verdana, sans-serif; font-weight: normal; line-height: 115%; font-size: 16px; text-align: left; margin: 0 0 1px 0px;" align="left">
+                        <span style="color: #777; font-size: 14px; font-family: 'Open Sans', Verdana, sans-serif;font-weight:bold;line-height: 150%; ">
+                          <span style="font-size: 15px;font-weight: bold; color: #777;"> The Hotel Duval </span>
+                          <br />15 N Monroe St Tallahassee, FL
+                          <br>Thursday January 19th
+                          <br>8-10 AM EST (breakfast included) </span>
+                        </h4>
+                        <p style="line-height: 14px; margin: 4px 0; border-bottom: 1px solid #ccc !important;">&nbsp; </p>
+                    </td>
+                  </tr>
+                  <tr width="400" valign="middle" bgcolor="#fff">
+                    <td width="400" style="vertical-align: middle;   text-align: left;" valign="middle" bgcolor="#fff" height="303">
+                      <table style="height: 210px;" bgcolor="#ffffff" width="400" cellspacing="0" cellpadding="0">
+                        <tbody>
+                          <tr width="400">
+                            <td style="text-align: left; width:400px;">
+                              <p style="font-size: 14px; line-height: 150%; font-family: 'Open Sans', Verdana, sans-serif; color: #777; padding-left: 0x;"> Come and learn how Alfresco, AWS, and Netlocity can help state and local government agencies on their digital transformation faster using Alfresco on AWS to create more efficient, transparent, and productive government operations via secure Enterprise Content and Record Management with cloud scalability.
+                                <br />
+                                <br /> Alfresco solutions can help agencies satisfy cloud-first directives and open source initiatives, including automating compliance tasks and meeting global mandates for email and electronic records management economically and agency-wide. </p>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr width="400" valign="middle" bgcolor="#fff">
+                    <td width="400" style="vertical-align: middle;   text-align: left;" valign="middle" bgcolor="#fff" height="403">
+                      <!-- <td class="mobile-padding"> -->
+                      <table width="100%" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                        <tbody>
+                          <tr>
+                            <td style="border: 1px solid #fff; text-align: center; margin: 0 auto;">
+                              <h1 style="color: #a8abad; display: block; font-family: sans-serif; font-weight: bold; line-height: 200%; font-size: 26px; text-align: center; margin: 2px 0 36px 0;" align="center">
+                                <span style="color: #555; font-size: 16px; font-family: 'Open Sans', Verdana, sans-serif;">Reserve Your Seat Now! </span>
+                              </h1>
+                              <div>
+                                <!--[if mso]>
+    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.netlocity.com/events.html" style="height:40px;v-text-anchor:middle;width:160px;" arcsize="10%" strokecolor="#1e3650" fillcolor="#f29b18">
+      <w:anchorlock/>
+      <center style="color:#ffffff;font-family: 'Open Sans', Verdana, sans-serif;font-size:13px;font-weight:bold;">More Info</center>
+    </v:roundrect>
+  <![endif]--><a href="https://www.netlocity.com/events.html" style="background-color:#f29b18;border:1px solid #1e3650;border-radius:4px;color:#ffffff;display:inline-block;font-family: 'Open Sans', Verdana, sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:160px;-webkit-text-size-adjust:none;mso-hide:all;">More Info</a></div>
+                            </td>
+                          </tr>
+                          <tr width="400" valign="middle" bgcolor="#fff">
+                            <td align="center" bgcolor="#fff" width="400" valign="middle" style="vertical-align: middle;text-align: center;height: 45px;padding-top: 46px;">
+                              <table style="height: 121px;text-align:center;" width="400" align="center">
+                                <tbody>
+                                  <tr>
+                                    <td>
+                                      <br />
+                                      <table style="width: 100%;" border="0" cellspacing="0" cellpadding="0" align="center">
+                                        <tbody>
+                                          <tr>
+                                            <td>
+                                              <table style="height:32px; text-align: center;" width="400" align="center" height="32">
+                                                <tbody>
+                                                  <tr>
+                                                    <td>&nbsp;</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td style="border-top: 1px solid #a8abad; border-bottom: 1px solid #a8abad; vertical-align: middle; height: 32px; text-align:center; margin: 0 auto; " align="center" height="32">
+                                                      <p style="text-transform: uppercase; font-family: 'Open Sans', Verdana, sans-serif; font-size: 12px; line-height: 32px; font-weight: bold;text-align:center; margin: 0 auto; "><a style="text-decoration: none; color: #f29b18; font-weight: bold;letter-spacing: 1px;" href="https://www.netlocity.com" target="_blank">HOME </a>
+                                                        <span style="color: #a8abad;"> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; </span> <a style="text-decoration: none; color: #ed930b; font-weight: bold;letter-spacing: 1px;" href="https://www.netlocity.com/Products" target="_blank">PRODUCTS </a>
+                                                        <span style="color: #a8abad;"> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; </span> <a style="text-decoration: none; color: #ed930b; font-weight: bold;letter-spacing: 1px;" href="https://www.netlocity.com/contactpage.html" target="_blank">CONTACT </a></p>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>&nbsp;</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                              <table border="0" cellspacing="0" cellpadding="0" align="center">
+                                                <tbody>
+                                                  <tr>
+                                                    <td>
+                                                      <p style="text-align:center; margin: 0 auto; letter-spacing: 3px; font-family: 'Open Sans', Verdana, sans-serif; color: #a8abad; line-height: 350%;font-size: 16px;font-weight:bold;"> NETLOCITY </p>
+                                                      <p style="text-align:center; margin: 0 auto; font-family: 'Open Sans', Verdana, sans-serif; color: #a8abad; font-size: 11px;line-height: 150%;"> 10822 W Toller Dr. Suite 180 Littleton, CO 80127 </p>
+                                                      <p style="text-align:center; margin: 0 auto; font-family: 'Open Sans', Verdana, sans-serif; color: #a8abad; font-size: 11px;line-height: 150%;"> (301) 392-3232</p>
+                                                      <p style="text-align:center; margin: 0 auto; font-family: 'Open Sans', Verdana, sans-serif; color: #a8abad; font-size: 11px;line-height: 150%;">Click <a style="font-family: 'Open Sans', Verdana, sans-serif; color: #f29b18; font-size: 11px;" href="[unsubscribe]">Here </a>to Unsubscribe</p>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>&nbsp;</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <!-- <br>
+                              <br>
+                              <br>
+                              <div style="border-bottom: 1px solid #a8abad; border-top: 1px solid #a8abad;height: 45px;">
+                                <p style="text-transform: uppercase; font-family: 'Open Sans', Verdana, sans-serif; font-size: 14px; line-height: 16px; font-weight: bold; height: 45px;"> <a style="text-decoration: none; color: #f29b18; font-weight: bold;" href="https://www.netlocity.com" target="_blank">Netlocity
+                      </a>
+                                  <span style="color: #a8abad"> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; </span> <a style="text-decoration: none; color: #f29b18; font-weight: bold;" href="https://www.netlocity.com/Products" target="_blank">Products
+                      </a>
+                                  <span style="color: #a8abad;"> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; </span> <a style="text-decoration: none; color: #f29b18; font-weight: bold;" href="https://www.netlocity.com/contactpage.html" target="_blank">Contact
+                      </a> </p>
+                              </div> -->
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="em_aside" style="border-collapse: collapse; mso-line-height-rule: exactly; -webkit-text-size-adjust: none !important; bottom: 0;" align="center" valign="top" bgcolor="#fff">
+                              <table class="em_main_table mytable" style="max-width: 100% !important; border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px; -webkit-text-size-adjust: none !important; margin: 0 auto !important; text-align: center !important;" border="0" width="100%" height="44" cellspacing="0" cellpadding="0" align="center">
+                                <tbody>
+                                  <tr>
+                                    <td class="em_height" style="border-collapse: collapse; mso-line-height-rule: exactly; -webkit-text-size-adjust: none !important;" height="15">&nbsp; </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="em_height" style="border-collapse: collapse; mso-line-height-rule: exactly; -webkit-text-size-adjust: none !important;" height="22">&nbsp; </td>
+                                  </tr>
+                                  <tr style="max-width: 400px !important;">
+                                    <td style="max-width: 400px !important; font-family: 'Open Sans', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #a8abad; text-transform: none; border-collapse: collapse; mso-line-height-rule: exactly; -webkit-text-size-adjust: none !important;" align="center" width="400">
+                                      <table class="bodytable" style="border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px; -webkit-text-size-adjust: none !important; margin: 0 auto !important; text-align: center !important;" border="0" cellspacing="0" cellpadding="0" align="center">
+                                        <tbody>
+                                          <tr>
+                                            <td align="center" width="400" height="130">
+                                              <div class="footer">
+                                                <!-- <p id="footer" style="margin: 0px !important; padding: 0px !important; -webkit-text-size-adjust: none !important; font-family: 'Open Sans', Verdana, sans-serif; color: #a8abad; font-size: .86em;">{{ site_settings.company_name }}&nbsp; {{ site_settings.company_street_address_1 }}&nbsp; {{ site_settings.company_street_address_2 }}&nbsp; {{ site_settings.company_city }}&nbsp; {{ site_settings.company_state }}&nbsp; {{ site_settings.company_zip }}&nbsp; {{ site_settings.company_country }}&nbsp;
+                                                  <br /> You received this email because you are subscribed to {{ subscription_name }} from {{ site_settings.company_name }}.
+                                                  <br /> Update your <a class="hubspot-mergetag" style="border-collapse: collapse; mso-line-height-rule: exactly; color: #f29b18; -webkit-text-size-adjust: none !important;" href="{{ unsubscribe_link }}" data-unsubscribe="true">email preferences
+                                      </a> to choose the types of emails you receive.
+                                                  <br /> <a class="hubspot-mergetag" style="border-collapse: collapse; mso-line-height-rule: exactly; color: #f29b18; -webkit-textt-text-size-adjust: none !important;" href="{{ unsubscribe_link_all }}" data-unsubscribe="true">Unsubscribe from all future emails
+                                      </a> </p> -->
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="em_height" style="border-collapse: collapse; mso-line-height-rule: exactly; -webkit-text-size-adjust: none !important;" height="3">&nbsp; </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+    </center>
+  </body>
+
+  </html>
